@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
       var audio = document.querySelector("audio");
       audio.volume = 0.1;
+      audio.play();
       document.getElementsByTagName("body")[0].insertAdjacentHTML(
             "beforeend",
             "<div id='mask'></div>"
