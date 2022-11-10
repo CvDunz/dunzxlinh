@@ -17,11 +17,9 @@ document.addEventListener('DOMContentLoaded', function(){
       } olock();
       var timer = setInterval(function(){olock()}, 1000);
       document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
+      document.querySelector("audio").play();
+      document.querySelector("audio").volume = 0.2;
       setInterval(function(){document.querySelector("footer").innerHTML = Footer_Text[Math.floor(Math.random()*Footer_Text.length)]}, 10000);
-
-      var audio = document.querySelector("audio");
-      audio.volume = 0.1;
-      audio.play();
       document.getElementsByTagName("body")[0].insertAdjacentHTML(
             "beforeend",
             "<div id='mask'></div>"
