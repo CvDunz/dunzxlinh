@@ -1,5 +1,5 @@
 html, body {
-      background-color: #f6f6f6;
+      /* background-color: #f6f6f6; */
       margin: 0;
       padding: 0;
 }
@@ -90,11 +90,13 @@ anni {
 #info .one {
       grid-column: 3 / 6;
       text-align: center;
+      size: 100px;
 }
 
 #info .two {
       grid-column: 8 / 11;
       text-align: center;
+      size: 100px;
 }
 
 footer {
@@ -110,6 +112,8 @@ footer {
       position: relative;
       z-index: 1000;
       opacity: .4;
+      transition: all .3s ease-in-out;
+
 }
 
 #mask {
@@ -146,7 +150,7 @@ footer {
       }
 
       footer {
-            font-size: 1.2rem;
+            font-size: 20px;
             margin: 0;
             padding-bottom: 2rem;
       }
