@@ -1,8 +1,8 @@
-html, body {
-      /* background-color: #f6f6f6; */
+/* html, body {
+      background-color: #f6f6f6;
       margin: 0;
       padding: 0;
-}
+} */
 img {max-width: 100%;}
 
 body {
@@ -155,3 +155,8 @@ footer {
             padding-bottom: 2rem;
       }
 }
+html, body { 
+      margin: 0;
+      background: #270F34; 
+      padding: 0;
+    }
