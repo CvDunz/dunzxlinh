@@ -1,4 +1,4 @@
-const yourDate = new Date("2021-12-09"),
+const yourDate = new Date("2022-04-20"),
 music = ['ido', 'noinaycoanh', '1000year','atmyworst','brave','cuoidi','saunay','cuoithoi'];
 let Footer_Text = ['Thiểu năng - Ngu không thể tả<br> Thieu nang - Ta khong the ngu','Cảm ơn Linh đã ở bên anh suốt thời gian quaa 💓', 'From Dunz with 💓','Xuân đợi hoa nở, Hạ đợi mưa<br>Thu đợi hoa sữa, Đông đợi người.','Bỏ ngoài tai trăm lời tán tỉnh, vì tôi<br>Chỉ thấy một mình em xinh..<br>Thề với chúa - Đấy không phải là thính<br>Đấy là em trong đôi mắt kẻ si tình','Là một người tỉnh táo<br>Tôi không mê tín - Tôi mê em']
 document.addEventListener('DOMContentLoaded', function(){
